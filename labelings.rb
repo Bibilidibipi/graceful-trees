@@ -75,7 +75,7 @@ class Tree
         puts
         nodes << 'new_line' unless nodes.empty?
       elsif node.nil?
-        print '    '
+        print '   ' 
       else
         print 'O'
         node.children.each do |child|
